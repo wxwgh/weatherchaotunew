@@ -1,0 +1,97 @@
+//通用颜色 主要用于字体颜色,个别元素背景色
+@common_color:#5193e8;
+
+@common_color2:#529BFC;
+
+//通用背景效果 element-ui官方推荐样式
+@common_background:{
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+//通用边框样式
+@common_border:1px solid #ccc;
+
+
+//纵向盒子 靠上对齐
+@display_column_start:{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+@display_column_end:{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+//纵向盒子 上下留白
+@display_column_around:{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+//纵向盒子 居中
+@display_column_center:{
+	display: flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+//横向盒子 左右靠边对齐
+@display_row_between:{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+//横向盒子 靠左对齐
+@display_row_start:{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+//横向盒子 靠右对齐
+@display_row_end:{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+//横向盒子 左右留白对齐
+@display_row_around:{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.text_hover_color{
+	color:#409EFF;
+}
+.mapCursor{
+	cursor:default;
+}
+.mapUnCursor{
+	cursor:grab;
+}
+//提示框全局 样式
+.message_class{
+	background: rgba(0,0,0,0.5)!important;
+	color:#fff!important;
+	min-width:150px!important;
+	border:0;
+}
+.message_class>i,
+.message_class>p{
+	color:#fff!important;
+}
